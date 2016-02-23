@@ -69,6 +69,7 @@ $pagination-arrows: true !default;
     font-size: $pagination-font-size;
     margin-#{$global-right}: $pagination-item-spacing;
     border-radius: $pagination-radius;
+    overflow: hidden;
 
     @if $pagination-mobile-items {
       display: inline-block;
